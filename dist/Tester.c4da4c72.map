@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["$","getJSON","json","console","log"],"mappings":";AAAAA,EAAEC,QAAQ,2CAA4C,SAASC,GAC3DC,QAAQC,IAAIF","file":"Tester.c4da4c72.map","sourceRoot":"..","sourcesContent":["$.getJSON(\"/Users/akilsevim/Downloads/requests.json\", function(json) {\n    console.log(json); // this will show the info it in firebug console\n});"]}

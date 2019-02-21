@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tester</title>
+    <style>
+        .blue {
+            color:cornflowerblue;
+        }
+        .red {
+            color:indianred;
+        }
+    </style>
+</head>
+<body>
+<div id="test">
+    <h1>Tester</h1>
+    <input type="file" id="files" name="files[]" multiple />
+    <output id="list"></output>
+
+    Server Address:<input id="serverURL" type="text" placeholder="server url" value="http://localhost:10000/dynamic/visualize.cgi/plots/CEMETERY_plot/">
+    User multiplier:<input type="text" id="multiplier" value="1" />
+    Bloom:<input type="checkbox" id="bloom">
+    <input type="button" value="Start to send requests" id="start">
+    <div id="requestCounter"></div>
+    <div id="requestsOutput"></div>
+
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
